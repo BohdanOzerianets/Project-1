@@ -27,7 +27,7 @@ public class carMovement1 : MonoBehaviour
     Vector3 TPL, TPP;
 
     void Update()
-    {
+    { 
         float v = Input.GetAxis("Vertical") * MotoForce;       // Przyspieszenie koła 
         float h = Input.GetAxis("Horizontal") * SteerForce;    // Kąt obrotu przednich kół
 
